@@ -1,5 +1,3 @@
-import re
-
 def moderate_feedback(feedback_text: str, target_words: list[str], mask: str = "****") -> str:
     """
     Identifies target words in a text block and replaces them with a mask.
